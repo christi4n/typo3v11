@@ -1,0 +1,35 @@
+<?php
+
+return [
+    'root' => dirname(__DIR__) . '/typo3v11', // (ex. configs/changelog.php using --config option)
+    // File changelog (relative to the working dir/root)
+    'path' => 'CHANGELOG.md', // You can specify a different folder
+    'headerTitle' => 'CHANGELOG',
+    'headerDescription' => '',
+    'preset' => [
+        // Add improvements type (deprecated type)
+        'improvements' => [
+            'label' => 'Improvements',
+            'description' => 'Improvements to existing features'
+        ],
+        'chore' => [
+            // Change chore default label
+            'label' => 'Others'
+        ],
+    ],
+    // Types allowed on changelog
+    'types' => ['docs', 'feat', 'fix', 'pref', 'refactor'], // These could overwrite ignored types
+    // Exclude not notables types (following types are the default excluded types)
+    'ignoreTypes' => ['build', 'chore', 'ci', 'revert', 'style', 'test'],
+    'ignorePatterns' => [
+        // Exclude all commits with this specific description
+        'chore(deps): update dependencies',
+        // You can also use regex to exclude all commit like 'chore(changelog): updated'
+        '/chore\(changelog\)[:].*/i'
+    ],
+    'tagPrefix' => 'ver',
+    'tagSuffix' => '',
+    'skipBump' => false,
+    'skipTag' => false,
+    'skipVerify' => true,
+];
