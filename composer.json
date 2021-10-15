@@ -1,7 +1,7 @@
 {
     "name": "typo3/cms-base-distribution",
     "description": "TYPO3 CMS Base Distribution",
-    "version": "er",
+    "version": "erer",
     "license": "GPL-2.0-or-later",
     "config": {
         "platform": {
