@@ -1,8 +1,4 @@
-<!--- BEGIN HEADER -->
 # CHANGELOG
-
-
-<!--- END HEADER -->
 
 ## [erer](https://github.com/christi4n/typo3v11/compare/verer...vererer) (2021-10-15)
 ### Features
