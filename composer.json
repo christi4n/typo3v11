@@ -1,7 +1,6 @@
 {
     "name": "typo3/cms-base-distribution",
     "description": "TYPO3 CMS Base Distribution",
-    "version": "ererer",
     "license": "GPL-2.0-or-later",
     "config": {
         "platform": {
@@ -52,5 +51,6 @@
     },
     "require-dev": {
         "marcocesarato/php-conventional-changelog": "^1.12"
-    }
+    },
+    "version": "erererer"
 }
